@@ -1,5 +1,5 @@
 {
-  "name": "ts-package-template",
+  "name": "@rog/ts-package-template",
   "description": "A TypeScript package template",
   "version": "1.0.0",
   "private": false,
@@ -20,7 +20,6 @@
   "files": [
     "dist",
     "LICENSE",
-    "CHANGELOG.md",
     "README.md"
   ],
   "scripts": {
@@ -29,10 +28,13 @@
     "check:write": "biome check --write",
     "test": "vitest run",
     "test:watch": "vitest",
-    "release": "np"
+    "changelog": "git-cliff --config ./scripts/git-cliff.toml --output CHANGELOG.md",
+    "release": "np",
+    "release:all": "npm run build && npm run release"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.4",
+    "git-cliff": "^2.10.1",
     "np": "^10.2.0",
     "tsdown": "^0.15.5",
     "typescript": "^5.9.2",
