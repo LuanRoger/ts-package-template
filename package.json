@@ -20,7 +20,8 @@
   "files": [
     "dist",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md"
   ],
   "types": "dist/index.d.ts",
   "exports": {
