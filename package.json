@@ -31,6 +31,7 @@
     }
   },
   "scripts": {
+    "dev": "tsdown --watch ./src",
     "build": "tsc && tsdown",
     "check": "biome check",
     "check:write": "biome check --write",
@@ -41,11 +42,11 @@
     "release:all": "npm run build && npm run release"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
+    "@biomejs/biome": "2.2.6",
     "git-cliff": "^2.10.1",
     "np": "^10.2.0",
-    "tsdown": "^0.15.5",
-    "typescript": "^5.9.2",
+    "tsdown": "^0.15.8",
+    "typescript": "^5.9.3",
     "vitest": "^3.2.4"
   }
 }
