@@ -24,13 +24,13 @@
     "noUncheckedSideEffectImports": true,
     "paths": {
       "~/*": ["./*"],
-      "@/*": ["./src/*"],
-      "@lib/*": ["./lib/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": [
     "*.json",
     "./src/**/*",
+    "./tests/**/*",
     "./tsdown.config.ts",
     "./eslint.config.ts"
   ],
