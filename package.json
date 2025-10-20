@@ -15,7 +15,10 @@
     "typescript",
     "template",
     "package",
-    "rolldown"
+    "rolldown",
+    "vitest",
+    "biome",
+    "tsdown"
   ],
   "files": [
     "dist",
@@ -38,8 +41,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "changelog": "git-cliff --config ./scripts/git-cliff.toml --output CHANGELOG.md",
-    "release": "np",
-    "release:all": "npm run build && npm run release"
+    "publish": "np",
+    "publish:all": "npm run build && npm run publish"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.6",
