@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://rolldown.rs" target="_blank" rel="noopener noreferrer" style="margin-right: 20px;">
-    <img width="150" src="https://rolldown.rs/rolldown-round.svg" alt="Rolldown logo">
+    <img width="150" src="https://raw.githubusercontent.com/voidzero-dev/community-design-resources/refs/heads/main/brand-assets/rolldown/rolldown-icon-color-dark.svg" alt="Rolldown logo">
   </a>
   <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
     <img width="150" src="https://raw.githubusercontent.com/remojansen/logo.ts/refs/heads/master/ts.png" alt="TypeScript logo">
