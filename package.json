@@ -45,7 +45,7 @@
     "publish:all": "npm run build && npm run publish"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.6",
+    "@biomejs/biome": "2.4.12",
     "git-cliff": "^2.12.0",
     "np": "^11.0.2",
     "tsdown": "^0.21.1",
