@@ -1,0 +1,43 @@
+name: Pull Request - Check, Test & Build
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        
+      - name: Lint
+        uses: pnpm/action-setup@v6
+
+      - run: pnpm install
+      - run: pnpm run check
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Lint
+        uses: pnpm/action-setup@v6
+
+      - run: pnpm install
+      - run: pnpm run test
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Build
+        uses: pnpm/action-setup@v6
+
+      - run: pnpm install
+      - run: pnpm run build
