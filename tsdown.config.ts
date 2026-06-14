@@ -7,5 +7,5 @@ export default defineConfig({
   dts: true,
   tsconfig: "tsconfig.build.json",
   format: "esm",
-  sourcemap: true,
+  sourcemap: false,
 });
