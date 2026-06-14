@@ -1,4 +1,30 @@
-## [1.0.2] - 2025-10-21
+## [1.1.0] - 2026-06-14
+
+### 🚀 Features
+
+- Install Ultracite
+
+### 🐛 Bug Fixes
+
+- Remove overrides from Biome
+
+### ⚙️ Miscellaneous Tasks
+
+- Update CHANGELOG
+- Update deps
+- Add dependabot
+- Change to use npm in dependabot
+- Update deps
+- Update Rolldown README asset
+- Update deps
+- Create Vitest config file
+- Create PR CI
+- Specify the packageManager
+- Disable source map
+- Remove emition from build
+- Update entry files
+- Try to use npm to publish
+## [1.0.3] - 2025-10-21
 
 ### 🐛 Bug Fixes
 
