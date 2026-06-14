@@ -1,9 +1,9 @@
 {
   "name": "@luanroger/ts-package-template",
-  "description": "A TypeScript package template",
-  "version": "1.0.3",
-  "private": false,
   "type": "module",
+  "version": "1.0.3",
+  "description": "A TypeScript package template",
+  "private": false,
   "author": "Luan Roger <luan.roger.2003@gmail.com> (https://github.com/LuanRoger)",
   "license": "MIT",
   "homepage": "https://github.com/LuanRoger/ts-package-template",
@@ -36,8 +36,8 @@
   "scripts": {
     "dev": "tsdown --watch ./src",
     "build": "tsc && tsdown",
-    "check": "biome check",
-    "check:write": "biome check --write",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
     "test": "vitest run",
     "test:watch": "vitest",
     "changelog": "git-cliff --config ./scripts/git-cliff.toml --output CHANGELOG.md",
@@ -45,11 +45,13 @@
     "publish:all": "npm run build && npm run publish"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.0",
+    "@biomejs/biome": "2.4.16",
     "git-cliff": "^2.13.1",
+    "lefthook": "^2.1.9",
     "np": "^11.2.1",
     "tsdown": "^0.22.2",
     "typescript": "^6.0.3",
+    "ultracite": "7.8.3",
     "vitest": "^4.1.8"
   }
 }

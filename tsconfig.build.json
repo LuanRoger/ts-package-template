@@ -5,6 +5,7 @@
     "declaration": true,
     "emitDeclarationOnly": true,
     "declarationMap": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "strictNullChecks": true
   }
 }
