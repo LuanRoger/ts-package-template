@@ -1,7 +1,7 @@
 {
   "name": "@luanroger/ts-package-template",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A TypeScript package template",
   "private": false,
   "author": "Luan Roger <luanroger.dev@gmail.com> (https://github.com/LuanRoger)",
