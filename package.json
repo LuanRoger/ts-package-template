@@ -42,7 +42,7 @@
     "test:watch": "vitest",
     "changelog": "git-cliff --config ./scripts/git-cliff.toml --output CHANGELOG.md",
     "postversion": "pnpm run changelog",
-    "publish": "np",
+    "publish": "np --package-manager npm",
     "publish:all": "pnpm run build && pnpm run publish"
   },
   "devDependencies": {
