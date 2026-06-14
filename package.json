@@ -4,7 +4,7 @@
   "version": "1.0.3",
   "description": "A TypeScript package template",
   "private": false,
-  "author": "Luan Roger <luan.roger.2003@gmail.com> (https://github.com/LuanRoger)",
+  "author": "Luan Roger <luanroger.dev@gmail.com> (https://github.com/LuanRoger)",
   "license": "MIT",
   "homepage": "https://github.com/LuanRoger/ts-package-template",
   "repository": {
@@ -41,8 +41,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "changelog": "git-cliff --config ./scripts/git-cliff.toml --output CHANGELOG.md",
+    "postversion": "pnpm run changelog",
     "publish": "np",
-    "publish:all": "npm run build && npm run publish"
+    "publish:all": "pnpm run build && pnpm run publish"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.16",
@@ -53,5 +54,6 @@
     "typescript": "^6.0.3",
     "ultracite": "7.8.3",
     "vitest": "^4.1.8"
-  }
+  },
+  "packageManager": "pnpm@11.6.0"
 }
