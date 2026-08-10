@@ -52,7 +52,7 @@
     "np": "^12.0.0",
     "tsdown": "^0.22.9",
     "typescript": "^6.0.3",
-    "ultracite": "7.9.4",
+    "ultracite": "7.10.1",
     "vitest": "^4.1.10"
   },
   "packageManager": "pnpm@11.9.0"
